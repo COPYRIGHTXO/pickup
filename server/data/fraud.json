@@ -1,0 +1,30 @@
+{
+  "signals": [
+    { "label": "Fake followers", "value": 7, "note": "Below category danger line" },
+    { "label": "Suspicious engagement", "value": 11, "note": "Two posts need review" },
+    { "label": "Bot comment clusters", "value": 4, "note": "Low automated language" },
+    { "label": "Comment quality", "value": 89, "note": "Strong purchase intent" }
+  ],
+  "redFlags": "Recent giveaway spike, two repeated comment clusters, and weekend story completion dips.",
+  "greenSignals": "Original comment language, stable posting cadence, strong save rate, and high audience overlap.",
+  "verdictTemplates": {
+    "low": {
+      "score": 94,
+      "riskLevel": "Low risk",
+      "summary": "Approve for premium tier. Audience growth is stable, comment quality is strong, and bot activity is well below the risk threshold.",
+      "badges": ["Verified", "Low risk", "Brand safe"]
+    },
+    "medium": {
+      "score": 72,
+      "riskLevel": "Medium risk",
+      "summary": "Proceed with caution. Some engagement patterns are irregular and require manual review before signing.",
+      "badges": ["Review needed", "Medium risk"]
+    },
+    "high": {
+      "score": 38,
+      "riskLevel": "High risk",
+      "summary": "Do not approve. Bot ratio is dangerously high, follower growth shows purchased spikes, and comment quality is poor.",
+      "badges": ["Flagged", "High risk", "Not recommended"]
+    }
+  }
+}

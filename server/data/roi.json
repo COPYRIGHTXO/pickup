@@ -1,0 +1,23 @@
+{
+  "scenarios": [
+    { "name": "Conservative", "reach": "4.8M", "revenue": "$118K", "roi": "2.1x" },
+    { "name": "Expected", "reach": "7.2M", "revenue": "$214K", "roi": "3.6x" },
+    { "name": "Optimistic", "reach": "10.6M", "revenue": "$338K", "roi": "5.2x" }
+  ],
+  "defaultInputs": {
+    "creators": 8,
+    "fees": 72000,
+    "followers": 3800000,
+    "productPrice": 48,
+    "conversionRate": 2.4,
+    "duration": 21
+  },
+  "predictionEngine": {
+    "reach": "7.2M",
+    "clicks": "184K",
+    "conversions": 4416,
+    "profit": "$142K",
+    "roas": "4.8x"
+  },
+  "recommendations": "Shift 20% of spend to the top two creators, launch on Thursday evening, and add one education-focused creator to increase purchase intent."
+}

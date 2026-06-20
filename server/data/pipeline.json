@@ -1,0 +1,9 @@
+{
+  "pipeline": [
+    { "stage": "Recommended", "items": ["Maya Iyer", "Kavya Menon"] },
+    { "stage": "Contacted", "items": ["Rohan Verma"] },
+    { "stage": "Negotiating", "items": ["Ananya Rao"] },
+    { "stage": "Approved", "items": ["Devika Shetty"] },
+    { "stage": "Live", "items": ["Meera Joshi", "Ishaan Kapoor"] }
+  ]
+}

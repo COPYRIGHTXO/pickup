@@ -1,0 +1,58 @@
+{
+  "campaigns": [
+    {
+      "id": "glow-serum-launch",
+      "name": "Glow Serum Launch",
+      "status": "Active",
+      "budget": "$72K",
+      "budgetNum": 72000,
+      "creators": 12,
+      "roi": "3.8x",
+      "due": "Jun 28",
+      "brand": "Bloomvale Skincare",
+      "createdAt": "2026-06-01"
+    },
+    {
+      "id": "flexfuel-summer",
+      "name": "FlexFuel Summer",
+      "status": "Negotiating",
+      "budget": "$48K",
+      "budgetNum": 48000,
+      "creators": 7,
+      "roi": "2.6x",
+      "due": "Jul 04",
+      "brand": "FlexFuel Nutrition",
+      "createdAt": "2026-06-10"
+    },
+    {
+      "id": "loop-apparel-drop",
+      "name": "Loop Apparel Drop",
+      "status": "Reporting",
+      "budget": "$96K",
+      "budgetNum": 96000,
+      "creators": 18,
+      "roi": "4.9x",
+      "due": "Done",
+      "brand": "Loop Apparel",
+      "createdAt": "2026-05-15"
+    }
+  ],
+  "calendar": [
+    { "date": "Jun 24", "event": "Maya draft review" },
+    { "date": "Jun 28", "event": "First wave live" },
+    { "date": "Jul 02", "event": "Finance approval" },
+    { "date": "Jul 08", "event": "Final report" }
+  ],
+  "activity": [
+    "Avery moved Maya to Approved.",
+    "Mina scheduled Ananya payment.",
+    "Noah added fraud notes.",
+    "Sam exported report draft."
+  ],
+  "summary": {
+    "active": 18,
+    "totalBudget": "$412K",
+    "deliverablesDue": 26,
+    "pendingPayments": "$88K"
+  }
+}

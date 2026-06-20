@@ -1,0 +1,42 @@
+[
+  {
+    "id": "contact-1781915854649",
+    "email": "test@brand.com",
+    "goal": "Summer campaign",
+    "name": "",
+    "company": "",
+    "message": "",
+    "submittedAt": "2026-06-20T00:37:34.649Z",
+    "status": "new"
+  },
+  {
+    "id": "contact-1781916219852",
+    "email": "riya@brand.com",
+    "goal": "Beauty launch in Q3",
+    "name": "",
+    "company": "",
+    "message": "",
+    "submittedAt": "2026-06-20T00:43:39.852Z",
+    "status": "new"
+  },
+  {
+    "id": "contact-1781916464748",
+    "email": "riya@brand.com",
+    "goal": "Beauty launch in Q3",
+    "name": "",
+    "company": "",
+    "message": "",
+    "submittedAt": "2026-06-20T00:47:44.748Z",
+    "status": "new"
+  },
+  {
+    "id": "contact-1781916550456",
+    "email": "riya@brand.com",
+    "goal": "Beauty launch in Q3",
+    "name": "",
+    "company": "",
+    "message": "",
+    "submittedAt": "2026-06-20T00:49:10.456Z",
+    "status": "new"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "heroTrust": [
+    { "value": "12,400+", "label": "creators indexed" },
+    { "value": "94.2%", "label": "fraud detection accuracy" },
+    { "value": "3.1x", "label": "avg ROAS uplift" }
+  ],
+  "kpis": [
+    { "label": "Active Campaigns", "val": "18", "delta": "↑ 4 this month", "type": "up" },
+    { "label": "Total Reach", "val": "42.6M", "delta": "↑ 12.3% vs last qtr", "type": "up" },
+    { "label": "Avg Engagement Rate", "val": "5.8%", "delta": "↑ 0.6pt", "type": "up" },
+    { "label": "Overall ROI", "val": "3.4x", "delta": "↑ 0.4x vs target", "type": "up" }
+  ],
+  "marketStats": [
+    { "value": "$250B", "label": "Global influencer marketing spend by 2027", "cls": "" },
+    { "value": "29% CAGR", "label": "Industry compound annual growth rate", "cls": "alt" },
+    { "value": "<9%", "label": "Brands using AI in creator selection today", "cls": "alt2" }
+  ],
+  "testimonials": [
+    {
+      "quote": "\"We cut creator vetting time from two weeks to about two hours. The fraud scoring alone paid for the platform in the first month.\"",
+      "name": "Naina Kapoor",
+      "role": "Head of Growth, Bloomvale Skincare"
+    },
+    {
+      "quote": "\"The ROI predictor changed how we pitch budgets internally — we walk into planning meetings with scenarios, not hope.\"",
+      "name": "Arjun Mehta",
+      "role": "CMO, Northwind Foods"
+    },
+    {
+      "quote": "\"Post-campaign reports used to take our team a full week. PickUP generates a sharper version in minutes.\"",
+      "name": "Sara Thomas",
+      "role": "Marketing Director, Loop Apparel"
+    }
+  ]
+}

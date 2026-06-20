@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "title": "Workspace",
+      "fields": [
+        "Brand name: Bloomvale Skincare",
+        "Team seats: 12 active",
+        "Default market: India + US"
+      ]
+    },
+    {
+      "title": "Integrations",
+      "fields": [
+        "Instagram connected",
+        "YouTube connected",
+        "TikTok review required"
+      ]
+    },
+    {
+      "title": "AI Preferences",
+      "fields": [
+        "Prioritize ROI quality",
+        "Flag fraud above 18%",
+        "Auto-suggest replacements"
+      ]
+    }
+  ],
+  "notifications": {
+    "emailAlerts": "on",
+    "fraudAlerts": "immediate",
+    "campaignUpdates": "daily digest"
+  },
+  "workspaceHealth": {
+    "plan": "Scale",
+    "usage": "68%",
+    "seats": 12,
+    "alerts": "On"
+  }
+}
