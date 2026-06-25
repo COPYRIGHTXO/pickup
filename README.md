@@ -81,14 +81,22 @@ npm run dev
 pickup/
 ├── server/               # Express backend API
 │   ├── data/             # JSON data store
-│   ├── middleware/       # Express middleware (e.g., error handling)
+│   ├── middleware/       # Express middleware
 │   ├── routes/           # API route modules
+│   ├── scripts/          # Server utilities and seed scripts
+│   ├── utils/            # Shared helper functions
+│   ├── test-api.js       # Express endpoint testing script
 │   └── index.js          # Express entry point
 ├── src/                  # React frontend
-│   ├── hooks/            # Custom React hooks (useApi, useScrollReveal)
-│   ├── App.jsx           # Main application and UI views
-│   ├── index.css         # Global styles and modern CSS variables
+│   ├── components/       # Reusable UI components
+│   │   ├── modules/      # Dashboard and campaign tool panels
+│   │   └── ui/           # Shared interface elements
+│   ├── data/             # Frontend local mock data
+│   ├── hooks/            # Custom hooks (useApi, useScrollReveal)
+│   ├── App.jsx           # Main application views and shell
+│   ├── index.css         # Global stylesheets, themes, and CSS variables
+│   ├── comic.css         # Styling for comic-themed layout elements
 │   └── main.jsx          # React entry point
-├── vite.config.js        # Vite configuration (includes API proxy)
-└── package.json          # Project dependencies and scripts
+├── vite.config.js        # Vite build tool and API proxy config
+└── package.json          # Frontend and Backend npm dependency manifests
 ```

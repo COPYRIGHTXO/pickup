@@ -38,5 +38,35 @@
     "message": "",
     "submittedAt": "2026-06-20T00:49:10.456Z",
     "status": "new"
+  },
+  {
+    "id": "contact-1782028527160",
+    "email": "test@brand.com",
+    "goal": "Summer campaign",
+    "name": "",
+    "company": "",
+    "message": "",
+    "submittedAt": "2026-06-21T07:55:27.160Z",
+    "status": "new"
+  },
+  {
+    "id": "contact-1782028974179",
+    "email": "test@brand.com",
+    "goal": "API test run",
+    "name": "",
+    "company": "",
+    "message": "",
+    "submittedAt": "2026-06-21T08:02:54.179Z",
+    "status": "new"
+  },
+  {
+    "id": "contact-1782050440072",
+    "email": "test@brand.com",
+    "goal": "API test run",
+    "name": "",
+    "company": "",
+    "message": "",
+    "submittedAt": "2026-06-21T14:00:40.072Z",
+    "status": "new"
   }
 ]
