@@ -20,6 +20,7 @@ const app = express();
 // ── Middleware ──
 app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // ── Request logger (dev) ──
 app.use((req, _res, next) => {
@@ -66,17 +67,35 @@ app.get('/api/health', (_req, res) => {
   });
 });
 
+// ── API 404 catch — must come AFTER all /api routes ──
+app.all('/api/{*path}', (_req, res) => {
+  res.status(404).json({
+    success: false,
+    error: 'API endpoint not found',
+  });
+});
+
 // ── Serve static production build ──
 if (process.env.NODE_ENV === 'production') {
   const distPath = join(__dirname, '..', 'dist');
   app.use(express.static(distPath));
-  app.get('*', (_req, res) => {
+  app.get('/{*path}', (_req, res) => {
     res.sendFile(join(distPath, 'index.html'));
   });
 }
 
 // ── Error handler ──
 app.use(errorHandler);
+
+// ── Graceful shutdown on unhandled errors ──
+process.on('unhandledRejection', (reason) => {
+  console.error('[FATAL] Unhandled promise rejection:', reason);
+});
+
+process.on('uncaughtException', (err) => {
+  console.error('[FATAL] Uncaught exception:', err);
+  process.exit(1);
+});
 
 // ── Start server ──
 app.listen(PORT, () => {
